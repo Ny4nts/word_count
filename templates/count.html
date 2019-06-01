@@ -1,0 +1,9 @@
+<h1>统计结果为{{count}}</h1>
+<a href="..">back up</a>
+<h2>文字</h2>
+{{text}}
+<br>
+{% for word,count in sorted %}
+<br>
+{{ word }} - {{ count }}
+{% endfor %}
